@@ -1,0 +1,40 @@
+{
+  "name": "my-web",
+  "version": "1.0.0",
+  "description": "project to learn full stack development",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon --exec babel-node src/server/server.js --ignore public/",
+    "bundle": "webpack -wd"
+  },
+  "author": "Patrick",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.3",
+    "mongoose": "^5.7.5",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-router-dom": "^5.1.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.5.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.1.2",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.4",
+    "react-test-renderer": "^16.10.2"
+  }
+}
